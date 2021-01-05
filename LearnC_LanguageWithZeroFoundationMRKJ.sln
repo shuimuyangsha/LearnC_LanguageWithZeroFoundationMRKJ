@@ -12,6 +12,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter17_NetworkSocket", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter18_StudentAchievementManagementSystem", "Chapter18_StudentAchievementManagementSystem\Chapter18_StudentAchievementManagementSystem.vcxproj", "{07679039-8FA6-420E-92CC-4AAFA14950C2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter15_File", "Chapter15_File\Chapter15_File.vcxproj", "{04C6787A-5165-4441-BE24-24C4AFD39DA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -36,6 +38,14 @@ Global
 		{07679039-8FA6-420E-92CC-4AAFA14950C2}.Release|x64.Build.0 = Release|x64
 		{07679039-8FA6-420E-92CC-4AAFA14950C2}.Release|x86.ActiveCfg = Release|Win32
 		{07679039-8FA6-420E-92CC-4AAFA14950C2}.Release|x86.Build.0 = Release|Win32
+		{04C6787A-5165-4441-BE24-24C4AFD39DA8}.Debug|x64.ActiveCfg = Debug|x64
+		{04C6787A-5165-4441-BE24-24C4AFD39DA8}.Debug|x64.Build.0 = Debug|x64
+		{04C6787A-5165-4441-BE24-24C4AFD39DA8}.Debug|x86.ActiveCfg = Debug|Win32
+		{04C6787A-5165-4441-BE24-24C4AFD39DA8}.Debug|x86.Build.0 = Debug|Win32
+		{04C6787A-5165-4441-BE24-24C4AFD39DA8}.Release|x64.ActiveCfg = Release|x64
+		{04C6787A-5165-4441-BE24-24C4AFD39DA8}.Release|x64.Build.0 = Release|x64
+		{04C6787A-5165-4441-BE24-24C4AFD39DA8}.Release|x86.ActiveCfg = Release|Win32
+		{04C6787A-5165-4441-BE24-24C4AFD39DA8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
