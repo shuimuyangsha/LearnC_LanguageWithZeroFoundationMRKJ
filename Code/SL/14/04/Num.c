@@ -1,19 +1,19 @@
-#include "stdio.h"                          /*°üº¬Í·ÎÄ¼ş*/
-#define iInput 19054                        /*ºê¶¨Òå*/
-int main()                                  /*Ö÷º¯Êımain*/
+#include "stdio.h"                          /*åŒ…å«å¤´æ–‡ä»¶*/
+#define iInput 19054                        /*å®å®šä¹‰*/
+int main()                                  /*ä¸»å‡½æ•°main*/
 {	
-     printf("µ±Ç°ÊÇ£º%d\n", iInput);         /*ÏÔÊ¾½á¹û*/
-#if iInput>0                                /*ÅĞ¶ÏÌõ¼ş*/
+     printf("å½“å‰æ˜¯ï¼š%d\n", iInput);         /*æ˜¾ç¤ºç»“æœ*/
+#if iInput>0                                /*åˆ¤æ–­æ¡ä»¶*/
     
-	if(iInput % 9527==0 && iInput %2 == 0)  /*ÅĞ¶Ï±»Õû³ıµÄÊı*/
-      printf("ÄÜ±»9527Õû³ıµÄÅ¼Êı\n");       /*Êä³öĞÅÏ¢*/
+	if(iInput % 9527==0 && iInput %2 == 0)  /*åˆ¤æ–­è¢«æ•´é™¤çš„æ•°*/
+      printf("èƒ½è¢«9527æ•´é™¤çš„å¶æ•°\n");       /*è¾“å‡ºä¿¡æ¯*/
 #else 
    #if iInput<0  
-	    printf("µ±Ç°Îª¸ºÊı£º%d\n", iInput); /*Êä³ö½á¹û*/
+	    printf("å½“å‰ä¸ºè´Ÿæ•°ï¼š%d\n", iInput); /*è¾“å‡ºç»“æœ*/
   #else	
-    printf("µ±Ç°Îª£º%d\n", iInput);         /*ÏÔÊ¾½á¹û*/
+    printf("å½“å‰ä¸ºï¼š%d\n", iInput);         /*æ˜¾ç¤ºç»“æœ*/
 #endif 
 #endif 
   
-	return 0;                               /*³ÌĞò½áÊø*/
+	return 0;                               /*ç¨‹åºç»“æŸ*/
 }

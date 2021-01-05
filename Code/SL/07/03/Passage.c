@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int num=0;                                /*定义人数变量*/
-    scanf("%d",&num);                         /*输入人数*/
-     do                                       /*进入循环*/
+    int num=0;                                /*瀹氫箟浜烘暟鍙橀噺*/
+    scanf("%d",&num);                         /*杈撳叆浜烘暟*/
+     do                                       /*杩涘叆寰幆*/
      {
          num++;
-         printf("还能承载 %d 人，\n",26-num);
+         printf("杩樿兘鎵胯浇 %d 浜猴紝\n",26-num);
                                      
       }while(num<=25);
-         printf("座位已满，不能再承载了。\n");
+         printf("搴т綅宸叉弧锛屼笉鑳藉啀鎵胯浇浜嗐�俓n");
       return 0;
 }
