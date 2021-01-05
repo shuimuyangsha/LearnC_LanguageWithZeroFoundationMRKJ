@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter17_NetworkSocket", "Chapter17_NetworkSocket\Chapter17_NetworkSocket.vcxproj", "{9C30B76F-FC41-4C74-A1E0-90AFC61513B9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter18_StudentAchievementManagementSystem", "Chapter18_StudentAchievementManagementSystem\Chapter18_StudentAchievementManagementSystem.vcxproj", "{07679039-8FA6-420E-92CC-4AAFA14950C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -26,6 +28,14 @@ Global
 		{9C30B76F-FC41-4C74-A1E0-90AFC61513B9}.Release|x64.Build.0 = Release|x64
 		{9C30B76F-FC41-4C74-A1E0-90AFC61513B9}.Release|x86.ActiveCfg = Release|Win32
 		{9C30B76F-FC41-4C74-A1E0-90AFC61513B9}.Release|x86.Build.0 = Release|Win32
+		{07679039-8FA6-420E-92CC-4AAFA14950C2}.Debug|x64.ActiveCfg = Debug|x64
+		{07679039-8FA6-420E-92CC-4AAFA14950C2}.Debug|x64.Build.0 = Debug|x64
+		{07679039-8FA6-420E-92CC-4AAFA14950C2}.Debug|x86.ActiveCfg = Debug|Win32
+		{07679039-8FA6-420E-92CC-4AAFA14950C2}.Debug|x86.Build.0 = Debug|Win32
+		{07679039-8FA6-420E-92CC-4AAFA14950C2}.Release|x64.ActiveCfg = Release|x64
+		{07679039-8FA6-420E-92CC-4AAFA14950C2}.Release|x64.Build.0 = Release|x64
+		{07679039-8FA6-420E-92CC-4AAFA14950C2}.Release|x86.ActiveCfg = Release|Win32
+		{07679039-8FA6-420E-92CC-4AAFA14950C2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
