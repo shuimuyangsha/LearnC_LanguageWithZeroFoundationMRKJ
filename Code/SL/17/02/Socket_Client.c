@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<winsock.h>		/*引入winsock头文件*/
+#pragma comment(lib,"ws2_32.lib")
 
 int  main()
 {

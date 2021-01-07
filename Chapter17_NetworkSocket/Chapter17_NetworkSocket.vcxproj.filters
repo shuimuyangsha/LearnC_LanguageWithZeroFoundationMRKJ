@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Code\SL\17\01\Socket.c">
+    <ClCompile Include="..\Code\SL\17\02\Socket_Client.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
