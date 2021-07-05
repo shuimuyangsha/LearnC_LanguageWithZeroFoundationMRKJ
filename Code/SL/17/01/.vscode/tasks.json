@@ -6,6 +6,7 @@
 			"label": "C/C++: gcc.exe build active file",
 			"command": "C:\\ForEden\\mingw-w64\\mingw64\\bin\\gcc.exe",
 			"args": [
+				"-lwsock32",
 				"-g",
 				"${file}",
 				"-o",
@@ -48,6 +49,7 @@
 				"-g",
 				"${file}",
 				"-o",
+				"-lwsock32",
 				"${fileDirname}\\${fileBasenameNoExtension}.exe"
 			],
 			"options": {
